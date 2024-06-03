@@ -1,0 +1,3 @@
+[submodule "indianepxress-tech-scrapper"]
+	path = indianepxress-tech-scrapper
+	url = https://github.com/juglabs/go_scraping_projects/indianepxress-tech-scrapper
