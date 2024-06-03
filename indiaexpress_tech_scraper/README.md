@@ -8,4 +8,4 @@ THINGS LEARNT
 - colly packages' callback feature
 - goquery selector
 - Traversing and selecting elements on DOM of HTML page
--
+
