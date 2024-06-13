@@ -34,6 +34,7 @@ func scrapeHindustanTimes() (articles []Article) {
 			}
 			
 	})
+	//Then scrape the page for article title, date, synopsis, url, content etc
 	c.OnHTML("body > section.mt-4 > div > div > div.col-xl-9.col-lg-8.col-md-12.col-sm-12.col-12.storyline", func(e *colly.HTMLElement){
 			article := Article{}
 			article.Title = e.ChildText("h1")
